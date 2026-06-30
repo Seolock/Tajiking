@@ -1,4 +1,4 @@
-# Tajikistan Camp
+# Tajik Camp
 
 ### DIR overview
 
