@@ -29,7 +29,7 @@ public class E03 {
         // int score = 85;
 
         // if (score >= 80) {
-        //     System.out.println("합격");
+        //     System.out.println("good");
         // }
 
 //
@@ -37,9 +37,9 @@ public class E03 {
         // int score = 75;
 
         // if (score >= 80) {
-        //     System.out.println("합격");
+        //     System.out.println("good");
         // } else {
-        //     System.out.println("불합격");
+        //     System.out.println("bad");
         // }
 
 //
