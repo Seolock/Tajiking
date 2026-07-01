@@ -1,6 +1,6 @@
 /*
 
-Implement add function so that it works as a dynamic array
+Implement add and delete function so that it works as a dynamic array
 that can automatically resize itself, 
 while internally using a fixed-size array.
 
@@ -24,10 +24,18 @@ public class Q07 {
         scanner.close();
     }
 
-    // returns a new array with +1 length and last item added
+    // returns a new array with +1 length and item x is added to the tail
     static int[] add(int[] array, int x){
 
         // your code here
 
     }
+
+    // returns a new array with -1 length and item in index x deleted
+    static int[] delete(int[] array, int x){
+
+        // your code here
+
+    }
+    
 }
