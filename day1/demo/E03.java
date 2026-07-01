@@ -11,17 +11,20 @@ public class E03 {
         System.out.println(a != b);  // true
         System.out.println(a >= b);  // false
         System.out.println(a <= b);  // true
-        System.out.println("--");
 
-        int age = 20;
-        boolean bool = true;
+//
 
-        System.out.println(bool); //true
-        System.out.println(!bool); //false
-        System.out.println(age >= 19 && bool); //true
-        System.out.println(age >= 19 || bool); //true
-        System.out.println(age < 19 && bool); //false
-        System.out.println(age < 19 || bool); //true
+        // int age = 20;
+        // boolean bool = true;
+
+        // System.out.println(bool); //true
+        // System.out.println(!bool); //false
+        // System.out.println(age >= 19 && bool); //true
+        // System.out.println(age >= 19 || bool); //true
+        // System.out.println(age < 19 && bool); //false
+        // System.out.println(age < 19 || bool); //true
+
+//
 
         // int score = 85;
 

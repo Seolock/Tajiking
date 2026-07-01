@@ -2,9 +2,9 @@
 public class E04 {
     public static void main(String[] args) {
 
-        // for (int i = 1; i <= 5; i++) {
-        //     System.out.println(i);
-        // }
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
 
 //
 
@@ -44,6 +44,14 @@ public class E04 {
 
         //     System.out.println(i);
         // }
+
+//
+
+        // int x = 3;
+        // do{
+        //     System.out.println(x);
+        //     x--;
+        // }while(x>0);
 
     }
 }

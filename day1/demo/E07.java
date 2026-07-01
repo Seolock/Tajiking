@@ -1,6 +1,15 @@
 // Function(Method)
 public class E07 {
 
+    public static void main(String[] args) {
+        
+        System.out.println(add(3, 5));
+        System.out.println(max(10, 20));
+        System.out.println(greet("Mark"));
+        System.out.println(sumOfSquares(3,4));
+
+    }
+
     static int add(int a, int b) {
         return a + b;
     }
@@ -24,12 +33,4 @@ public class E07 {
         return square(a) + square(b);
     }
 
-    public static void main(String[] args) {
-        
-        System.out.println(add(3, 5));
-        System.out.println(max(10, 20));
-        System.out.println(greet("Mark"));
-        System.out.println(sumOfSquares(3,4));
-
-    }
 }
