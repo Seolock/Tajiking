@@ -27,10 +27,10 @@ public class Student extends Person {
     // toString
     public String toString() {
         return "Student{" +
-                "name='" + getName() + '\'' +
+                "name='" + getName() + "'" +
                 ", age=" + getAge() +
-                ", school='" + school + '\'' +
-                '}';
+                ", school='" + school + "'" +
+                "}\n";
     }
 
     // implements

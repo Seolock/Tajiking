@@ -1,42 +1,40 @@
 /*
 
-Implements Menu, Food and Drink Class.
-It needs constructor, getter, setter, and toString methods.
+Implement the class Circle and Rectangle.
+It needs constructor and getArea() methods.
 
 */
 
 public class Q03 {
     public static void main(String[] args){
-
-        Menu oshi = new Food();
-        Menu cola = new Drink();
-
-        System.out.println(oshi.toString());
-        System.out.println(cola.toString());
         
+        Circle circle = new Circle(5);
+        Rectangle rectangle = new Rectangle(10,5);
+
+        System.out.println(circle.getArea());
+        System.out.println(rectangle.getArea());
+
     }
 }
 
-class Menu {
+interface Shape {
 
-    private String name;
-    private int price;
-
-    // your code here
-
-}
-
-class Food extends Menu {
-
-    private String meat;
-
-    // your code here
-
-}
-
-class Drink extends Menu {
+    int getArea();
     
-    private int volume;
+}
+
+class Circle implements Shape {
+    
+    private int radius;
+
+    // your code here
+
+}
+
+class Rectangle implements Shape {
+    
+    private int width;
+    private int height;
 
     // your code here
 

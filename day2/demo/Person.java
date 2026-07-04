@@ -38,7 +38,7 @@ public class Person implements Action {
         return "Person{" +
                 "name='" + name + "'" +
                 ", age=" + age +
-                "}";
+                "}\n";
     }
 
     // must define what you implements

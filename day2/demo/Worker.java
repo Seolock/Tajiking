@@ -27,9 +27,9 @@ public class Worker extends Person {
     // toString
     public String toString() {
         return "Worker{" +
-                "name='" + getName() + '\'' +
+                "name='" + getName() + "'" +
                 ", age=" + getAge() +
-                ", salary=" + salary + '}';
+                ", salary=" + salary + "}\n";
     }
 
     // implements
