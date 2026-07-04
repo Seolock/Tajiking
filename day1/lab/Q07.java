@@ -31,11 +31,4 @@ public class Q07 {
 
     }
 
-    // returns a new array with -1 length and item in index x deleted
-    static int[] delete(int[] array, int x){
-
-        // your code here
-
-    }
-    
 }
